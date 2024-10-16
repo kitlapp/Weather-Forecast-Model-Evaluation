@@ -1,4 +1,4 @@
-# weather_evaluation
+# Weather Forecast Model Evaluation
 
 This repository includes a comprehensive evaluation of three weather forecast models (GFS, IFS, and ICONEU) against actual weather station data. It applies statistical metrics and trigonometric methods to assess the accuracy of forecasts for wind direction, temperature, and wind speed.
 
