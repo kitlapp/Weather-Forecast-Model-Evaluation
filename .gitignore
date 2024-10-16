@@ -1,0 +1,12 @@
+.idea/ 
+.ipynb_checkpoints/ 
+2nd Round Task.docx 
+Doc_Weather_Models-Evaluation.docx
+PPT_Weather_Model_Evaluation.pdf 
+PPT_Weather_Models_Evaluation.pptx
+README.txt 
+__pycache__/ 
+forecast_data.parquet 
+station_data.parquet 
+weatherxm_prj_jypiter.ipynb
+requirements.txt
