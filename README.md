@@ -2,9 +2,9 @@
 
 This repository includes a comprehensive evaluation of three weather forecast models (GFS, IFS, and ICONEU) against actual weather station data. It applies statistical metrics and trigonometric methods to assess the accuracy of forecasts for wind direction, temperature, and wind speed.
 
-*** NOTE: Due to data sharing restrictions, instructions on how to run the scripts are not included. However, I can execute the scripts on my PC while sharing my screen with anyone interested. The included files demonstrate my capability to build structured Python projects and my careful, analytical approach. The documentation file is particularly important, as it reflects my academic rigor and eagerness to research and solve problems. ***
+NOTE: Due to data sharing restrictions, instructions on how to run the scripts are not included. However, I can execute the scripts on my PC while sharing my screen with anyone interested. The included files demonstrate my capability to build structured Python projects and my careful, analytical approach. The documentation file is particularly important, as it reflects my academic rigor and eagerness to research and solve problems. 
 
-*** 1. FILES INCLUDED ***
+FILES INCLUDED 
 A) INTEGRATED DEVELOPMENT ENVIRONMENT FILES: 'main.py', 'cleaning.py', 'visualizations.py', 'evaluation.py', 'dictionaries.py'
 (The project is prepared in PyCharm. A Jupyter notebook file can also be provided upon request.)
 
