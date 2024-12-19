@@ -230,7 +230,7 @@ plt.show()
 # ======================================================================================================================
 
 # Show a time series with the actual and the forecast temperature:
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 7))
 plt.plot(station_resampled['Date'], station_resampled['Temperature'], label='Actual Temperature')
 plt.plot(gfs_forecast['Date'], gfs_forecast['GFS Temp'], label='GFS Temperature', color='orange')
 plt.plot(ifs_forecast['Date'], ifs_forecast['IFS Temp'], label='IFS Temperature', color='green')
@@ -268,7 +268,7 @@ print('Explore the Calm Wind DataFrame:\n')
 explore_calm_wind_data.info()
 
 # Show the wind speed variations by date:
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 7))
 sns.boxplot(x=station_resampled['Date'].dt.date, y=station_resampled['Wind Speed'])
 plt.xticks(rotation=20)
 plt.xlabel('Date')
@@ -278,7 +278,7 @@ plt.grid(True)
 plt.show()
 
 # Show a time series with the actual and the forecast wind speeds:
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(10, 7))
 plt.plot(station_resampled['Date'], station_resampled['Wind Speed'], label='Actual Wind Speed')
 plt.plot(gfs_forecast['Date'], gfs_forecast['GFS Wind Speed'], label='GFS Wind Speed', color='orange')
 plt.plot(ifs_forecast['Date'], ifs_forecast['IFS Wind Speed'], label='IFS Wind Speed', color='green')
@@ -289,6 +289,7 @@ plt.ylabel('Wind Speed (m/s)')
 plt.title('Actual VS Predicted Wind Speed over Time')
 plt.grid(True)
 plt.legend()
+plt.show()
 
 # ======================================================================================================================
 # *** Exploratory Data Analysis on Wind Direction ***
@@ -297,7 +298,7 @@ plt.legend()
 # Show circular histograms for wind direction in the same figure:
 
 # Create a figure with subplots:
-fig, axs = plt.subplots(1, 3, figsize=(10, 18), subplot_kw={'polar': True})
+fig, axs = plt.subplots(1, 3, figsize=(12, 5), subplot_kw={'polar': True})
 angles = np.linspace(0, 2 * np.pi, 9)
 
 # Create circular histogram for actual data vs GFS forecasts:
