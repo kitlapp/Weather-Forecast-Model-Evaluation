@@ -21,10 +21,11 @@ Alternative 2: If you prefer, I can privately share the data with you. Then foll
 2. Open Anaconda Prompt and type
    <br>--> conda create --name 'YourEnvName' -c conda-forge python=3.12.4 matplotlib=3.9.1 seaborn=0.13.2 numpy=2.0.0 pandas=2.2.2 scikit-learn=1.5.1 pyarrow=17.0.0 tabulate=0.9.0
 4. Activate the newly created environment.
-4) Open PyCharm setting your project directory as project in PyCharm.
-5) Activate the environment and configure it with your preferred IDE (e.g., PyCharm).
-6) Let PyCharm load the new env.
-7) Run the main.py file.
+5. Open PyCharm setting your project directory as project in PyCharm.
+6. Activate the environment and configure it with your preferred IDE (e.g., PyCharm).
+7. Let PyCharm load the new env.
+8. Run the main.py file.
+9. Enjoy!
 
 *** CAUTION: Installing from default Anaconda channel will raise the error PackagesNotFoundError ***
 
