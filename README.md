@@ -18,8 +18,9 @@ Alternative 1: Due to data sharing restrictions, I can execute the scripts on my
 
 Alternative 2: If you prefer, I can privately share the data with you. Then follow the instructions below:
 1. Download the project as a zip file or clone the repository to your local machine. Assuming you have already got the datasets, you own all required files.
-2. Open Anaconda Prompt and type "conda create --name 'YourEnvName' -c conda-forge python=3.12.4 matplotlib=3.9.1 seaborn=0.13.2 numpy=2.0.0 pandas=2.2.2 scikit-learn=1.5.1 pyarrow=17.0.0 tabulate=0.9.0
-3. Activate the newly created environment.
+2. Open Anaconda Prompt and type
+   <br>--> conda create --name 'YourEnvName' -c conda-forge python=3.12.4 matplotlib=3.9.1 seaborn=0.13.2 numpy=2.0.0 pandas=2.2.2 scikit-learn=1.5.1 pyarrow=17.0.0 tabulate=0.9.0
+4. Activate the newly created environment.
 4) Open PyCharm setting your project directory as project in PyCharm.
 5) Activate the environment and configure it with your preferred IDE (e.g., PyCharm).
 6) Let PyCharm load the new env.
